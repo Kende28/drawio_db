@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="1 oldal" id="EEVo4j3yJuF9JEtH8V6M">
-    <mxGraphModel dx="703" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="231VM2dLTvjTa_PWvIxr-12" value="Személyzet" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="499" y="585" width="100" height="40" as="geometry" />
+          <mxGeometry x="470" y="480" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="231VM2dLTvjTa_PWvIxr-13" value="ID" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="479" y="690" width="100" height="40" as="geometry" />
@@ -127,7 +127,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="231VM2dLTvjTa_PWvIxr-19" value="Entity" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="209" y="565" width="100" height="40" as="geometry" />
+          <mxGeometry x="270" y="560" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="231VM2dLTvjTa_PWvIxr-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="231VM2dLTvjTa_PWvIxr-21" target="231VM2dLTvjTa_PWvIxr-19">
           <mxGeometry relative="1" as="geometry" />
@@ -146,6 +146,18 @@
         </mxCell>
         <mxCell id="231VM2dLTvjTa_PWvIxr-23" value="Esemény&lt;span style=&quot;font-size:12.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-ansi-language:HU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt;_&lt;/span&gt;ID" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="70" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="231VM2dLTvjTa_PWvIxr-27" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jVbalr7YoB0RKRe_65sh-26" target="231VM2dLTvjTa_PWvIxr-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="340" y="510" as="sourcePoint" />
+            <mxPoint x="330" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="231VM2dLTvjTa_PWvIxr-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="231VM2dLTvjTa_PWvIxr-12" target="jVbalr7YoB0RKRe_65sh-26">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="410" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
